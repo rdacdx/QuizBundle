@@ -8,6 +8,6 @@ that every time a Quiz is instantiated to be answered is a different Quiz.
 [Detailed installation instructions] (http://github.com/egulias/QuizBundle/blob/dev/Resources/doc/installation.md)
 
 [![Build
-Status](https://secure.travis-ci.org/egulias/EguliasQuizBundle.png)](http://travis-ci.org/egulias/EguliasQuizBundle)
+Status](https://secure.travis-ci.org/rdacdx/QuizBundle.png)](http://travis-ci.org/rdacdx/QuizBundle)
 
 
