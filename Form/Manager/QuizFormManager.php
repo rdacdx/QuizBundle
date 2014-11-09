@@ -52,9 +52,13 @@ class QuizFormManager
         }
 
         $form->bind($params);
+
         if (!$form->isValid())return $form;
 
-        $quiz = $form->getData();
+        $quizAux = $form->getData();
+        $quiz = new Quiz();
+        $quiz->setName($quizAux["name"]);
+
         $this->em->persist($quiz);
 
         foreach ($questions as $question)
