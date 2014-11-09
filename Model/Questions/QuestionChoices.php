@@ -56,6 +56,14 @@ abstract class QuestionChoices implements ChoiceListInterface
         return $this;
     }
 
+    public function getValues(){return true;}
+    public function getPreferredViews(){return true;}
+    public function getRemainingViews(){return true;}
+    public function getChoicesForValues(array $values){return true;}
+    public function getValuesForChoices(array $choices){return true;}
+    public function getIndicesForChoices(array $choices){return true;}
+    public function getIndicesForValues(array $values){return true;}
+
     public function getConfig()
     {
         return $this->config;
